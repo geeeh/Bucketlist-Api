@@ -3,7 +3,6 @@ import os
 from flask import Flask
 from flask_cors import CORS, cross_origin
 
-
 from bucketlist.config import app_config
 from bucketlist.extensions import bcrypt, db, migrate
 from .v1.views import v1
